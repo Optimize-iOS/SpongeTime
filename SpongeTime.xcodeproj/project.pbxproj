@@ -104,8 +104,11 @@
 		16CEC55A1FE91ABD00BA6559 /* SpongeTime */ = {
 			isa = PBXGroup;
 			children = (
+				16CEC58B1FE952B100BA6559 /* Expand */,
+				16CEC58A1FE9529700BA6559 /* Main */,
 				16CEC55B1FE91ABD00BA6559 /* AppDelegate.swift */,
 				16CEC55D1FE91ABD00BA6559 /* ViewController.swift */,
+				16CEC5891FE9521500BA6559 /* Supporting Files */,
 				16CEC55F1FE91ABD00BA6559 /* Main.storyboard */,
 				16CEC5621FE91ABD00BA6559 /* Assets.xcassets */,
 				16CEC5641FE91ABD00BA6559 /* LaunchScreen.storyboard */,
@@ -130,6 +133,147 @@
 				16CEC57D1FE91ABD00BA6559 /* Info.plist */,
 			);
 			path = SpongeTimeUITests;
+			sourceTree = "<group>";
+		};
+		16CEC5891FE9521500BA6559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16CEC58A1FE9529700BA6559 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				16CEC59A1FE9587900BA6559 /* Public */,
+				16CEC5991FE957A100BA6559 /* Login */,
+				16CEC5981FE9579A00BA6559 /* Base */,
+				16CEC5971FE9579000BA6559 /* Home */,
+				16CEC5961FE9578000BA6559 /* Preview */,
+				16CEC5951FE9576A00BA6559 /* Logger */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		16CEC58B1FE952B100BA6559 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				16CEC5941FE953A300BA6559 /* Network */,
+				16CEC58F1FE952F300BA6559 /* Tools */,
+				16CEC58E1FE952E200BA6559 /* Macros */,
+				16CEC58D1FE952D500BA6559 /* Constant */,
+				16CEC58C1FE952CD00BA6559 /* Controls */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		16CEC58C1FE952CD00BA6559 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		16CEC58D1FE952D500BA6559 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		16CEC58E1FE952E200BA6559 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		16CEC58F1FE952F300BA6559 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				16CEC5931FE9537300BA6559 /* Reachability */,
+				16CEC5921FE9536200BA6559 /* FileManager */,
+				16CEC5911FE9534F00BA6559 /* Logger */,
+				16CEC5901FE9533500BA6559 /* FCUUID */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		16CEC5901FE9533500BA6559 /* FCUUID */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FCUUID;
+			sourceTree = "<group>";
+		};
+		16CEC5911FE9534F00BA6559 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		16CEC5921FE9536200BA6559 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		16CEC5931FE9537300BA6559 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		16CEC5941FE953A300BA6559 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		16CEC5951FE9576A00BA6559 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		16CEC5961FE9578000BA6559 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		16CEC5971FE9579000BA6559 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16CEC5981FE9579A00BA6559 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		16CEC5991FE957A100BA6559 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		16CEC59A1FE9587900BA6559 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 		1A8B3F80D950DA34F934FF7B /* Pods */ = {
