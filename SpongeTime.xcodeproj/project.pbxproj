@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5D512E3F8491D955E2FC73 /* libPods-SpongeTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE6E2399E6EC0675459832 /* libPods-SpongeTime.a */; };
 		16CEC55C1FE91ABD00BA6559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CEC55B1FE91ABD00BA6559 /* AppDelegate.swift */; };
 		16CEC55E1FE91ABD00BA6559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CEC55D1FE91ABD00BA6559 /* ViewController.swift */; };
 		16CEC5611FE91ABD00BA6559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CEC55F1FE91ABD00BA6559 /* Main.storyboard */; };
@@ -47,6 +48,9 @@
 		16CEC5771FE91ABD00BA6559 /* SpongeTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpongeTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CEC57B1FE91ABD00BA6559 /* SpongeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpongeTimeUITests.swift; sourceTree = "<group>"; };
 		16CEC57D1FE91ABD00BA6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86AE6E2399E6EC0675459832 /* libPods-SpongeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpongeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D6E45312BDB02C722B5374 /* Pods-SpongeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpongeTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime.debug.xcconfig"; sourceTree = "<group>"; };
+		FB553E852D30BE7C74468F67 /* Pods-SpongeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpongeTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5D512E3F8491D955E2FC73 /* libPods-SpongeTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				16CEC56F1FE91ABD00BA6559 /* SpongeTimeTests */,
 				16CEC57A1FE91ABD00BA6559 /* SpongeTimeUITests */,
 				16CEC5591FE91ABD00BA6559 /* Products */,
+				1A8B3F80D950DA34F934FF7B /* Pods */,
+				BE08403C01C79D6DC9EA75A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = SpongeTimeUITests;
 			sourceTree = "<group>";
 		};
+		1A8B3F80D950DA34F934FF7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8D6E45312BDB02C722B5374 /* Pods-SpongeTime.debug.xcconfig */,
+				FB553E852D30BE7C74468F67 /* Pods-SpongeTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE08403C01C79D6DC9EA75A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AE6E2399E6EC0675459832 /* libPods-SpongeTime.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16CEC5801FE91ABD00BA6559 /* Build configuration list for PBXNativeTarget "SpongeTime" */;
 			buildPhases = (
+				70602965564E44D302D41CC4 /* [CP] Check Pods Manifest.lock */,
 				16CEC5541FE91ABD00BA6559 /* Sources */,
 				16CEC5551FE91ABD00BA6559 /* Frameworks */,
 				16CEC5561FE91ABD00BA6559 /* Resources */,
+				759C5B49CEBCBC4B10CAC3CB /* [CP] Embed Pods Frameworks */,
+				2FD148D5227311FB8EAEF702 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD148D5227311FB8EAEF702 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70602965564E44D302D41CC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		759C5B49CEBCBC4B10CAC3CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16CEC5541FE91ABD00BA6559 /* Sources */ = {
@@ -424,6 +499,7 @@
 		};
 		16CEC5811FE91ABD00BA6559 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D6E45312BDB02C722B5374 /* Pods-SpongeTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +514,7 @@
 		};
 		16CEC5821FE91ABD00BA6559 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB553E852D30BE7C74468F67 /* Pods-SpongeTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
