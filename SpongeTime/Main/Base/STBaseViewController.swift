@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  STBaseViewController.swift
 //  SpongeTime
 //
-//  Created by JackJin on 2017/12/19.
+//  Created by JackJin on 2017/12/20.
 //  Copyright © 2017年 liangbai. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class STBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +21,3 @@ class ViewController: UIViewController {
     }
 
 }
-

@@ -15,6 +15,7 @@
 		16CEC5661FE91ABD00BA6559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CEC5641FE91ABD00BA6559 /* LaunchScreen.storyboard */; };
 		16CEC5711FE91ABD00BA6559 /* SpongeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CEC5701FE91ABD00BA6559 /* SpongeTimeTests.swift */; };
 		16CEC57C1FE91ABD00BA6559 /* SpongeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CEC57B1FE91ABD00BA6559 /* SpongeTimeUITests.swift */; };
+		16CEC59D1FE9713800BA6559 /* STBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CEC59C1FE9713800BA6559 /* STBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		16CEC5771FE91ABD00BA6559 /* SpongeTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpongeTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CEC57B1FE91ABD00BA6559 /* SpongeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpongeTimeUITests.swift; sourceTree = "<group>"; };
 		16CEC57D1FE91ABD00BA6559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CEC59C1FE9713800BA6559 /* STBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBaseViewController.swift; sourceTree = "<group>"; };
 		86AE6E2399E6EC0675459832 /* libPods-SpongeTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpongeTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D6E45312BDB02C722B5374 /* Pods-SpongeTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpongeTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime.debug.xcconfig"; sourceTree = "<group>"; };
 		FB553E852D30BE7C74468F67 /* Pods-SpongeTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpongeTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpongeTime/Pods-SpongeTime.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +108,6 @@
 			children = (
 				16CEC58B1FE952B100BA6559 /* Expand */,
 				16CEC58A1FE9529700BA6559 /* Main */,
-				16CEC55B1FE91ABD00BA6559 /* AppDelegate.swift */,
 				16CEC55D1FE91ABD00BA6559 /* ViewController.swift */,
 				16CEC5891FE9521500BA6559 /* Supporting Files */,
 				16CEC55F1FE91ABD00BA6559 /* Main.storyboard */,
@@ -145,6 +146,7 @@
 		16CEC58A1FE9529700BA6559 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				16CEC59B1FE9611A00BA6559 /* AppDelegate */,
 				16CEC59A1FE9587900BA6559 /* Public */,
 				16CEC5991FE957A100BA6559 /* Login */,
 				16CEC5981FE9579A00BA6559 /* Base */,
@@ -258,6 +260,7 @@
 		16CEC5981FE9579A00BA6559 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				16CEC59C1FE9713800BA6559 /* STBaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -274,6 +277,14 @@
 			children = (
 			);
 			path = Public;
+			sourceTree = "<group>";
+		};
+		16CEC59B1FE9611A00BA6559 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				16CEC55B1FE91ABD00BA6559 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		1A8B3F80D950DA34F934FF7B /* Pods */ = {
@@ -478,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16CEC59D1FE9713800BA6559 /* STBaseViewController.swift in Sources */,
 				16CEC55E1FE91ABD00BA6559 /* ViewController.swift in Sources */,
 				16CEC55C1FE91ABD00BA6559 /* AppDelegate.swift in Sources */,
 			);
